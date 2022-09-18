@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>E-Commerce - Relatório</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">E-commerce</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="categorias.html">Categorias</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                            href="produtos.html#portfolio">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                            href="cadastrar.html#cadastrar">Cadastrar-se</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead" id="login">
+        <div class="container">
+
+        </div>
+    </header>
+    <!--Grafico-->
+    <div class="relatorio mt-5">
+        <div class="container">
+            <div id="impr">
+                <canvas id="primeiroGrafico"></canvas>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title m-b-0">Estatisticas de Vendas</h5>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox m-b-20">
+                                                <input type="checkbox" id="mainCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <th scope="col">Produto</th>
+                                        <th scope="col">Categoria</th>
+                                        <th>Valor Unidade</th>
+                                        <th scope="col">Quantidade</th>
+                                        <th scope="col">Valor Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="customtable">
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox">
+                                                <input type="checkbox" class="listCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td>Calça Jeans</td>
+                                        <td>Calças</td>
+                                        <th>R$ 20,00</th>
+                                        <td>76</td>
+                                        <th>R$ 1520,00</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox">
+                                                <input type="checkbox" class="listCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td>Blusa manga lnga</td>
+                                        <td>Blusas</td>
+                                        <th>R$ 32,00</th>
+                                        <td>45</td>
+                                        <th>R$ 1440,00</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox">
+                                                <input type="checkbox" class="listCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td>Blusa manga lnga</td>
+                                        <td>Blusas</td>
+                                        <th>R$ 32,00</th>
+                                        <td>45</td>
+                                        <th>R$ 1440,00</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox">
+                                                <input type="checkbox" class="listCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td>Blusa manga lnga</td>
+                                        <td>Blusas</td>
+                                        <th>R$ 32,00</th>
+                                        <td>45</td>
+                                        <th>R$ 1440,00</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox">
+                                                <input type="checkbox" class="listCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td>Blusa manga lnga</td>
+                                        <td>Blusas</td>
+                                        <th>R$ 32,00</th>
+                                        <td>45</td>
+                                        <th>R$ 1440,00</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label class="customcheckbox">
+                                                <input type="checkbox" class="listCheckbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td>Blusa manga lnga</td>
+                                        <td>Blusas</td>
+                                        <th>R$ 32,00</th>
+                                        <td>45</td>
+                                        <th>R$ 1440,00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="col-lg-4 text-lg-left">
+                    Copyright © ECommerce 2021
+                </div>
+             
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" href="#!">Privacy Policy</a>
+                    <a href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+        let primeiroGrafico = document.getElementById('primeiroGrafico').getContext('2d');
+
+        let chart = new Chart(primeiroGrafico, {
+            type: 'bar',
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            },
+            data: {
+                labels: ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho'],
+                //labels:[173448346, 175885229, 178276128, 180619108, 182911487, 185150806],
+
+                datasets: [
+                    {
+                        label: 'Camisas',
+                        backgroundColor: "#343a40",
+                        data: [180, 175, 178, 180, 182, 185]
+                        //data:  ['2000', '2001', '2002', '2003', '2004', '2005']
+                    },
+                    {
+                        label: 'Sapatos',
+                        backgroundColor: "#fed136",
+                        data: [120, 35, 25, 150, 90, 130]
+                        //data:  ['2000', '2001', '2002', '2003', '2004', '2005']
+                    },
+                    {
+                        label: 'Blusas',
+                        backgroundColor: "#28a745",
+                        data: [120, 25, 78, 180, 30, 200]
+                        //data:  ['2000', '2001', '2002', '2003', '2004', '2005']
+                    },
+                    {
+                        label: 'Vestidos',
+                        backgroundColor: "#6610f2",
+                        data: [80, 70, 48, 250, 150, 138]
+                        //data:  ['2000', '2001', '2002', '2003', '2004', '2005']
+                    },
+                    {
+                        label: 'Calças',
+                        backgroundColor: "#dc3545",
+                        data: [111, 225, 48, 90, 120, 135]
+                        //data:  ['2000', '2001', '2002', '2003', '2004', '2005']
+                    }
+
+                ]
+            }
+        });
+        function imprimePagina() {
+
+
+            var conteudo = document.getElementById("primeiroGrafico");
+            //var WinPrint = window.open();            
+            //WinPrint.document.body.appendChild(prtContent);          
+            window.document.write(conteudo.innerHTML);
+            window.focus();
+            window.print();
+            window.close();
+
+        }
+        function imprimePagina2() {
+            document.querySelector(".irmao").style.display = "none";
+            window.print();
+            document.querySelector(".irmao").style.display = "block";
+        }
+
+        function imprimePagina3() {
+            $("#impr").printThis({
+                canvas: true,
+            });
+        }
+
+    </script>
+
+</body>
+
+</html>
